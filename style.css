@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
 
-body{
+*{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    font-family: 'Syne', sans-serif;
 }
 
 video {
@@ -11,37 +11,40 @@ video {
     height: auto;
 }
 
-.child{
-    position: absolute;
-    text-align: center;
-    font-family: 'Syne', sans-serif;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    filter: invert(1);
-    mix-blend-mode: difference;
-}
-
-body > div > div > h1.child.first{
-    font-size: 5vw;
-    letter-spacing: 10rem;
-    padding-left: 10rem;
-}
-
-h1{
-    padding-top: 25rem;
-    color: rgb(73, 73, 73);
-}
-
-body > div > div > h1.child.second{
-    font-size: 30vw;
-    letter-spacing: -8rem;
-    padding-right: 11rem;
-}
-
-div{
-    height: 100%;
-    width: 100%;
+div.parent{
+    height: 100vh;
+    max-width: 100%;
     position: relative;
 }
 
+div.child{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    height: 80vh;
+    width: 100vw;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    position: absolute;
+    text-align: center;
+    filter: invert(1);
+    mix-blend-mode: difference;
+    color: rgb(66, 66, 66);
+}
+
+h1{
+    font-size: 30vw;
+    letter-spacing: -6vw;
+}
+
+h2{
+    padding-left: 20vw;
+    font-size: 5vw;
+    letter-spacing: 10vw;
+    transform: translateY(100%);
+}
+
+p{ 
+    filter: invert(10);
+    transform: translateY(-1050%);
+}
