@@ -10,4 +10,4 @@ Thanks for dropping by, I'm a 14yr old web-developer/designer & an aspiring Full
 <br>
 Cheers!
 
-![Alt Text](https://tenor.com/view/peace-out-gif-22295199)
+![Alt Text](https://tenor.com/view/peace-out-gif-22295199.gif)
